@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  }
+  .status {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #b3b8cd;
+    border-radius: 50%;
+  }
+  .statusOnline {
+    background-color: green;
+  }
+  .statusOff {
+    background-color: red;
+  }
+  .avatar {
+    border: 1px solid #b3b8cd;
+    border-radius: 20%;
+    padding: 7px;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+    margin: 0;
+  }
